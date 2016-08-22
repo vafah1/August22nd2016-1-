@@ -1,0 +1,155 @@
+Vafa Husain--> SQL Assignment--> Aug 22, 2016
+
+Teacher Table
+ID	First	Last	Age	Salary
+1	Mary	Smith	30	50000.00
+2	Joan	Allen	47	60000.00
+3	Steve	Lyons	44	55000.00
+
+Classes Table (Per Teacher)
+ID	Class		Desc			TID
+1	Chemistry	Intro to Chem		1
+2	Physics		Intro to Physics	1
+3	Calculus  	Advanced Calculus	2
+4	Algebra	 	 Advanced Algebra	2
+5	History	 	 American History	3
+6	Psychology	 Intro to Psych		3
+
+Student Table
+ID	First		Last		Grade	GPA
+1	Henry		Gills		11	3.5
+2	Bill		Monroe		10	3.0
+3	Sally		Thompson	9	3.8
+4	Jeff		Williams	9	2.7
+5	Becky		Anderson	12	1.8
+6	Arnold		Andrews		10	2.8
+7	Luke		Satore		9	3.5
+8	Raymond 	Hussey		11	3.7
+9	Will		Mendoza		12	1.5
+10	Jane		Miller		9	3.0
+
+Class_Student_Table
+CLSTID	STID	CLID
+1	1	1
+2	1	2
+3	1	3
+4	2	4
+5	2	5
+6	2	6
+7	3	6
+8	3	5
+9	3	4
+10	4	3
+11	4	2
+12	4	1
+13	5	6
+14	5	5
+15	5	1
+16	6	4
+17	6	3
+18	6	2
+19	7	6
+20	7	4
+21	7	2
+22	8	5
+23	8	3
+24	8	1
+25	9	6
+26	9	5
+27	9	4
+28	10	3
+29	10	2
+30	10	1
+
+
+1)Select All Teachers
+
+ID	First	Last	Age	Salary
+1	Mary	Smith	30	50000.00
+2	Joan	Allen	47	60000.00
+3	Steve	Lyons	44	55000.00
+
+
+2)Select All Classes
+
+ID	Class		Desc			TID
+1	Chemistry	Intro to Chem		1
+2	Physics		Intro to Physics	1
+3	Calculus  	Advanced Calculus	2
+4	Algebra	 	 Advanced Algebra	2
+5	History	 	 American History	3
+6	Psychology	 Intro to Psych		3
+
+
+3)Select All Students
+
+ID	First		Last		Grade	GPA
+1	Henry		Gills		11	3.5
+2	Bill		Monroe		10	3.0
+3	Sally		Thompson	9	3.8
+4	Jeff		Williams	9	2.7
+5	Becky		Anderson	12	1.8
+6	Arnold		Andrews		10	2.8
+7	Luke		Satore		9	3.5
+8	Raymond 	Hussey		11	3.7
+9	Will		Mendoza		12	1.5
+10	Jane		Miller		9	3.0
+
+
+4)Select All Classes For Teacher 1
+
+1	Chemistry	Intro to Chem		1
+2	Physics		Intro to Physics	1
+
+
+5)Select All Students for Class 1
+
+CSID	SID	CID
+
+ 1	 1 	 1
+ 12	 4 	 1
+ 15	 5 	 1
+ 24	 8 	 1
+ 30 	 10	 1
+
+6)Select All Classes for Student 1
+
+CSID	SID	CID
+
+ 1	 1	 1
+ 2	 1	 2
+ 3	 1	 3
+
+
+7) Select All Students Whose First Name Starts W/ 'A'
+
+STID		FN		LN		GRADE		GPA
+6		Arnold		Andrews		10		2.8
+
+
+8)Update Teacher 1 Name To Superman
+
+TID	FN		LN	AGE	SAL
+
+1	Superman		30	50000.00
+
+
+9)Update class 1's name to Underwater Basket Weaving
+
+CID	NAME				DESC			TID
+
+1	Underwater Basket Weaving	Intro to Chem		1
+
+
+10)
+
+SID	FN	LN	GRADE	GPA
+1	Wonder	Woman	11	3.5
+
+
+
+
+
+
+
+
